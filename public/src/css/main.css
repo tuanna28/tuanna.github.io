@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.khung{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+:root{
+    --color: #DA70D6; 
+}
+body{
+    font-family: 'Roboto';
+    width: 100%;
+}
+aside{
+    width: 20%;
+    height: 100vmax;
+    border-right: 1px solid var(--color);
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 290px;
+    margin-left: 3px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.menu ul li{
+    list-style: none;
+    text-align: center;
+}
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 0;
+    font-size: 25px;
+    background: transparent;
+    color: var(--color);
+    border-radius: 10px;
+    display: flex;
+    padding-left: 70px;
+}
+.menu a:hover{
+    background-color: var(--color);
+    color: #fff;
+}
+main {
+    width: 80%;
+    height: 100vmax;
+}
+header{
+    width: 100%;
+    text-align: right;
+}
+.conten{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.conten-avatar{
+    padding-left: 100px;
+}
+.conten-avatar img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid var(--color);
+    overflow: hidden;
+}
+.conten-name span{
+    font-size: 25px;
+}
+.span1{
+    padding-left: 10px;
+    color: var(--color);
+}
+.conten-v{
+    padding: 0 100px;
+}
+.conten-v a{
+    font-size: 25px;
+    color: var(--color);
+    text-decoration: none;
+    background: transparent;
+    display: block;
+}
+.banner{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color);
+    border-radius: 20px;
+}
+.conten-text{
+    color: black;
+    padding-left: 20px;
+}
+.conten-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conten-banner img{
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+}
+/* .conten-v a{
+    display: flex;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: var(--color);
+    font-size: 20px;
+}
+
+.conten-v a:hover {
+    color: grey;
+} */
+/* end */

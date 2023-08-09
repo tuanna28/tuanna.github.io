@@ -1,0 +1,85 @@
+:root{
+    --color: #DA70D6; 
+}
+.category{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    background: #E6E6FA;
+    border-radius: 10px;
+}
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-action{
+    padding-right: 10px;
+}
+.product-action button{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color);
+    border-radius: 5px;
+}
+.product-action button:hover{
+    background: #FFFFE0;
+    opacity: 0.5;
+}
+.product-form input{
+    width: 240px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color);
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.product-form form button{
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 23px;
+}
+.product-form form button:hover {
+    color: var(--color);
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table th{
+    height: 50px;
+    color: var(--color);
+    font-size: 20px;
+    border-color: #DA70D6;
+    border-radius: 5px;
+    font-weight: 600;
+}
+table td{
+    color: var(--color);
+    font-size: 20px;
+    font-weight: 400;
+}
+table td img{
+    width: 180px;
+    padding-left: 10px;
+}
+.conten-action{
+    text-align: center;
+}
+.conten-action button{
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--color);
+    margin: 10px 20px;
+    border-radius: 10px;
+}
+.conten-action button:hover{
+    background: #F0E68C;
+}
